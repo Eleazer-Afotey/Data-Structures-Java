@@ -33,6 +33,8 @@ public class BubbleSort {
 
         /*
         -------------BUBBLE SORT algorithm
+        sorting in ascending order.
+        STABLE SORT ALGORITHM
          */
 
     public static int[] BubbleSortFunction(int[] intArray){
