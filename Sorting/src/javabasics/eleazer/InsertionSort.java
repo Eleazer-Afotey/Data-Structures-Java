@@ -3,6 +3,13 @@ package javabasics.eleazer;
 /*
 Insertion sort algorithm
  */
+
+
+
+/*
+STABLE SORT - Relative ordering of duplicate items is preserved [preferable]
+UNSTABLE SORT - Relative ordering of duplicate items is not preserved.
+ */
 public class InsertionSort {
 
     public static int[] insertionSortFunction(int[] intArray){

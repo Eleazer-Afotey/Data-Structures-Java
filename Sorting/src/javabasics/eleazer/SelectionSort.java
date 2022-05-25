@@ -12,14 +12,14 @@ public class SelectionSort {
 
         for(int lastUnsortedIndex = array.length-1; lastUnsortedIndex > 0; lastUnsortedIndex --){
 
-            int largestIndex = 0;
+            int largest = 0;
 
             for(int i = 1; i <= lastUnsortedIndex; i++){
-                if(array[i] > array[largestIndex]){
-                    largestIndex = i;
+                if(array[i] > array[largest]){
+                    largest = i;
                 }
             }
-            swap(intArray,largestIndex,lastUnsortedIndex);
+            swap(intArray,largest,lastUnsortedIndex);
         }
 
         return intArray;
